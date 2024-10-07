@@ -38,7 +38,7 @@
 }
 @media screen and (max-width:500px) {
     .navbar a{
-    font-size: 20px !important;
+    font-size: 17px !important;
     }
     .home-content h2{
         font-size: 40px !important;

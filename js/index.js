@@ -1,12 +1,12 @@
 
 $('.open-btn').on('click',function(){
 //   $('.open-btn').css('transform',' translateX(250%)')
-  $('.home-content h2').css('transform','translateX(150px)')
+  $('.home-content h2').css('transform','translateX(20%)')
   $('.home-content h2').css('width','50%')
-  $('.home-content p').css('transform','translateX(150px)')
+  $('.home-content p').css('transform','translateX(20%)')
   $('.home-content p').css('width','30%')
-    $('.navbar').animate({width:'250px'},1000)
-    $('.open-btn').css('transform',' translateX(250px)')
+    $('.navbar').animate({width:'22%'},1000)
+    $('.open-btn').css('transform',' translateX(55%)')
     $('.open-btn').css('transition','all 1s')
 })
 $('.signuare-content-2').slideUp(0)
