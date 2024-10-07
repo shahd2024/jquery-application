@@ -1,0 +1,143 @@
+ /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.home{
+    background-image: url(https://routeegy.github.io/egyptianParty/images/events-heavenly-header.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-overlay{
+    background-color:rgba(214, 46, 51, 0.6);;
+}
+.navbar{
+    background-color: black;
+    width: 250px;
+    height: 100vh;
+   
+    font-size: 18px;
+}
+.nav-links a{
+    transition: all 0.3s;
+     cursor: pointer !important; 
+  color: white ;
+  font-size: 25px;
+  text-decoration: none;
+    
+}
+.nav-links a:hover {
+    color: red !important; 
+    background-color: teal !important; 
+    cursor: pointer !important;
+}
+.home-title h2{
+   font-size: 60px;
+   margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2 
+ }  */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    overflow-x: hidden !important;
+}
+
+.home {
+    width: 100%;
+    height: 660px;
+    background-image: url(https://routeegy.github.io/egyptianParty/images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.home-overlay {
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.navbar {
+    background-color: #111;
+    width:0px; 
+     left: 0%;
+      overflow-x: hidden !important;
+    height: 100%;
+    font-size: 25px;
+    z-index: 99;
+    /* transition: 1s; */
+    
+}
+.navbar a{
+    color: white !important;
+    transition:all 0.5s;
+}
+.navbar a:hover{
+    color: red !important;
+}
+.home-content{
+    margin-left: 20px !important;
+}
+.home-content h2{
+    font-size: 60px;
+    transition: all 1s;
+   
+}
+.home-content p{
+    transition: all 1s;
+}
+ .open-btn{
+    /* transform: translateX(-310%) !important;
+    transform: translateX(-680%);
+    transition: all 0.8s;
+    font-size: 25px;
+    color: white;
+    cursor:pointer !important; */
+    font-size: 30px;
+    /* transition: all 0.8s; */
+    cursor: pointer;
+   
+} 
+.signuare{
+    padding: 10px;
+    background-color: #ccc;
+    width: 60%;
+    cursor: pointer;
+
+}
+.signuare-head{
+    background-color:rgba(230, 130, 133, 1);
+}
+.event-time{
+    width: 100%;
+    height: 330px;
+    background-image: url(https://routeegy.github.io/egyptianParty/images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.event-overlay{
+    background-color:rgba(214, 46, 51, 0.6);
+}
+.inner{
+    border: white solid 1px !important;
+}
+
