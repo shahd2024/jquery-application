@@ -1,38 +1,7 @@
-/* @media screen and (max-width:340px) {
-    .open-btn{
-        transform: translateX(30%) !important;
-    }
-}
-@media screen and (min-width:341px) and (max-width:677px) {
-    .open-btn{
-        transform: translateX(-25%) !important;
-    }
-}
-@media screen and (min-width:677px) and (max-width:700px) {
-    .open-btn{
-        transform: translateX(-150%) !important;
-    }
-}
-@media screen and (min-width:701px) and (max-width:795px) {
-    .open-btn{
-        transform: translateX(-200%) !important;
-    }
-}
-@media screen and (min-width:796px) and (max-width:900px) {
-    .open-btn{
-        transform: translateX(-220%) !important;
-    }
-} */
- /* @media screen and (max-width:576px){
-    .eve-1{
-        column-gap: 20px;
-        width: 25% !important;
-    }
- } */
+
 @media screen and (min-width:446px) and (max-width:684px) {
 .home-content h2{
-    /* background-color: teal !important; */
-    /* width:50% !important; */
+   
 }
     
 }
@@ -44,4 +13,67 @@
         font-size: 35px !important;
         }
     
+}
+@media screen and (min-width:390px) and (max-width:576px) {
+    #time-left{
+    
+      column-gap: 10px !important;
+      flex-wrap: nowrap !important;
+    
+    }
+    .eve-1{
+       
+        width: calc((100% - 20px) /4) ;
+        
+    }
+    .inner{
+        /* display: flex;
+        flex-wrap: wrap; */
+        padding-block: 30px !important;
+       
+        padding-left: 10px !important;
+    }
+    .eve-days{
+      
+        padding-left: 0px !important;
+        padding-right: 20px !important;
+    }
+    .ti-head{
+        /* width: 400% !important;
+        background-color: aquamarine !important; */
+    }
+    
+}
+@media screen and (max-width:389px){
+    #time-left{
+      
+        column-gap: 10px !important;
+        flex-wrap: nowrap !important;
+      
+      }
+      .eve-1{
+      
+        width: calc((100% - 45px) /4) ;
+       
+    }
+    .inner{
+        padding-block: 30px !important;
+     
+        padding-left: 5px !important;
+       
+    }
+    .eve-days{
+       
+        padding-left: 0px !important;
+        padding-right: 70px !important;
+       
+    }
+    
+}
+@media screen and (max-width:700px){
+    .signuare-content{
+    font-size: 10px !important;
+    
+    
+    }
 }
