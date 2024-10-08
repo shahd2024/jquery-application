@@ -79,7 +79,7 @@ $(document).ready(function() {
         
         $('.days').html( '-' +days );
         $('.hours').html( hours +'h');
-        $('.minutes').html( minutes +'m');
+        $('.minutes').html( minutes );
         $('.seconds').html( seconds +'s');
 
         

@@ -79,3 +79,30 @@
     
     }
 }
+@media screen and (max-width:576px){
+    .con-1{
+       max-width: 50% !important;
+    }
+    .contact p{
+        font-size: 12px !important;
+        max-width: 40%;
+    }
+    .contact-icons i{
+        font-size: 10px !important;
+        margin: 0px !important;
+
+    }
+    .site{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .mailing{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .phone{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+}
