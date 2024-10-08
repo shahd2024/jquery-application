@@ -77,7 +77,7 @@ $(document).ready(function() {
         let seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
         
-        $('.days').html( '-' +days +'D');
+        $('.days').html( '-' +days );
         $('.hours').html( hours +'h');
         $('.minutes').html( minutes +'m');
         $('.seconds').html( seconds +'s');
