@@ -31,12 +31,13 @@
         flex-wrap: wrap; */
         padding-block: 30px !important;
        
-        padding-left: 10px !important;
+        padding-left: 0px !important;
     }
     .eve-days{
       
-        padding-left: 0px !important;
+        padding-left: 20px !important;
         padding-right: 20px !important;
+        background-color: blueviolet !important;
     }
     .ti-head{
         /* width: 400% !important;
@@ -64,8 +65,9 @@
     }
     .eve-days{
        
-       
-         padding-right: 50px !important; 
+        padding-left: 6px !important;
+         padding-right: 30px !important; 
+        
         flex-direction: column;
         text-align: center;
        
@@ -103,6 +105,14 @@
     .phone{
         margin: 0 !important;
         padding: 0 !important;
+    }
+    .starting{
+        
+        flex-wrap: nowrap !important;
+        
+    }
+    .starting p{
+        max-width: 120% !important;
     }
     
 }
